@@ -42,7 +42,7 @@ const RecommendedBusinessItemsComponent = ({
             alt={lastItem.name}
             width={1000}
             height={1000}
-            className="lg:h-[240px] h-56 rounded-lg"
+            className="lg:h-[240px] h-56 rounded-lg transition-all duration-300 hover:scale-110"
           />
         </div>
         <div className="flex flex-col items-start justify-end w-full gap-2">
@@ -84,7 +84,7 @@ const RecommendedBusinessItemsComponent = ({
                 alt={rightItems[0].name}
                 width={1000}
                 height={1000}
-                className="lg:h-[240px] h-56 rounded-lg"
+                className="lg:h-[240px] h-56 rounded-lg transition-all duration-300 hover:scale-110"
               />
             </div>
             <div
@@ -126,7 +126,7 @@ const RecommendedBusinessItemsComponent = ({
                   alt={item.name}
                   width={1000}
                   height={1000}
-                  className="w-full lg:w-56 lg:h-[152px] h-36  object-cover rounded-lg"
+                  className="w-full lg:w-56 lg:h-[152px] h-36  object-cover rounded-lg transition-all duration-300 hover:scale-110"
                 />
               </div>
               <div className="flex flex-col items-start justify-center w-full gap-1">
