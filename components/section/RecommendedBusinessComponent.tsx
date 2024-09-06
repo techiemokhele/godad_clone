@@ -31,7 +31,7 @@ const RecommendedBusinessComponent = () => {
 
   return (
     <section
-      id="recommendedBusiness"
+      id="hosting"
       className="flex flex-col items-center justify-center text-white gap-6"
     >
       <h1 className="text-2xl font-semibold text-center">

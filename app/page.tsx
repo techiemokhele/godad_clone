@@ -1,6 +1,7 @@
 import {
   BrandWebsiteComponent,
   RecommendedBusinessComponent,
+  RetainCustomerInfoComponent,
   TopHomeSectionComponent,
 } from "@/components";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <TopHomeSectionComponent />
       <RecommendedBusinessComponent />
       <BrandWebsiteComponent />
+      <RetainCustomerInfoComponent />
     </main>
   );
 }
