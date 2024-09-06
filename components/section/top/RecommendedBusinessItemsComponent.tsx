@@ -21,7 +21,7 @@ const RecommendedBusinessItemsComponent = ({
   };
 
   return (
-    <div className="flex flex-col-reverse md:flex-row w-full gap-4 text-black-1 lg:px-24 px-8">
+    <div className="flex flex-col md:flex-row w-full gap-4 text-black-1 lg:px-24 px-8">
       {/* Left: Latest item (one item) */}
       <div
         className={`flex flex-col rounded-md md:w-1/2 max-w-full p-4 gap-6`}
