@@ -18,3 +18,10 @@ export interface ProductDataItemProps {
   buttonText: string;
   color: string;
 }
+
+export interface BrandingDataItemProps {
+  id: number;
+  avatar: string;
+  title: string;
+  description: string;
+}
