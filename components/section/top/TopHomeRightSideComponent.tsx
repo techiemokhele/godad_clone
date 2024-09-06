@@ -7,7 +7,7 @@ const TopHomeRightSideComponent = () => {
 
   return (
     <div className="flex flex-col h-[50vh] justify-center items-center py-4 px-2 gap-2">
-      <p className="uppercase text-[8px] text-black-1 bg-teal-300 rounded-md p-1">
+      <p className="uppercase text-[8px] text-black-1 bg-teal-300 rounded-md px-2 py-1">
         new
       </p>
       <p className="capitalize text-[8px] text-white-1 pt-1">
