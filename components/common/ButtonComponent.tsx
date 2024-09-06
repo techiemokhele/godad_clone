@@ -28,7 +28,7 @@ const ButtonComponent = ({
             ? "bg-transparent border-2 border-gray-200 text-black-1"
             : "bg-black-1 text-white-1"
         }
-        ${primaryDark ? "bg-black-1 text-white-1" : "bg-white-1 text-gray-4"}
+        ${primaryDark ? "bg-black-1 text-white-1" : "bg-white-1 text-[#111111]"}
         hover:opacity-90 transition-opacity`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}

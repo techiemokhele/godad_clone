@@ -22,7 +22,7 @@ const config: Config = {
       },
       colors: {
         black: {
-          1: "#111111",
+          1: "#111",
         },
         white: {
           1: "#ffffff",
@@ -52,7 +52,7 @@ const config: Config = {
           1: "#D8EFEF",
           2: "#555555",
           3: "#333333",
-          4: "#222222"
+          4: "#222222",
         },
       },
       text: {
