@@ -10,11 +10,11 @@ export interface ButtonProps {
 
 export interface ProductDataItemProps {
   id: number;
-  image: string;
+  productImage: string;
   name: string;
   price: number;
   domain: string;
   description: string;
   buttonText: string;
-  promotion: boolean;
+  color: string;
 }

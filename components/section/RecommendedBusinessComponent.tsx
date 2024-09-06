@@ -34,7 +34,7 @@ const RecommendedBusinessComponent = () => {
       id="recommendedBusiness"
       className="flex flex-col items-center justify-center text-white gap-6"
     >
-      <h1 className="text-2xl font-semibold">
+      <h1 className="text-2xl font-semibold text-center">
         What is mostly important for your business currently?
       </h1>
 

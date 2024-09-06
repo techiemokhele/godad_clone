@@ -54,6 +54,9 @@ const config: Config = {
           3: "#333333",
           4: "#222222",
         },
+        brown: {
+          brown: "#bb7c23",
+        },
       },
       text: {
         xs: "0.75rem",

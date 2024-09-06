@@ -10,7 +10,7 @@ const TopHomeLeftSideComponent = () => {
     <div className="relative h-[50vh] w-full flex justify-center items-center">
       <div className="flex flex-row justify-between gap-6 w-full">
         <div className="w-full p-6 justify-center items-center">
-          <div className="relative z-10 flex flex-col items-start gap-2 w-2/3 md:w-3/4 px-0 md:px-3 pt-2 md:pt-4">
+          <div className="relative z-10 flex flex-col items-start gap-2 w-2/3 lg:w-3/5 px-0 md:px-3 pt-2 md:pt-4">
             <p className="uppercase text-white text-[8px] text-center px-2 py-1 rounded-md bg-gray-3 mb-2">
               new
             </p>
