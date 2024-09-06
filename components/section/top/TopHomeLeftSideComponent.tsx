@@ -16,6 +16,7 @@ const TopHomeLeftSideComponent = () => {
             </p>
 
             <Image
+              priority
               src="/icons/logo-no-background.svg"
               alt="logo"
               width={1000}

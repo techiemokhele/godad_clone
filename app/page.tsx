@@ -1,7 +1,13 @@
-import { TopHomeSectionComponent } from "@/components";
+import {
+  RecommendedBusinessComponent,
+  TopHomeSectionComponent,
+} from "@/components";
 
 export default function Home() {
-  return <main className="flex flex-col gap-6 md:gap-10">
-    <TopHomeSectionComponent/>
-  </main>;
+  return (
+    <main className="flex flex-col gap-10 md:gap-14">
+      <TopHomeSectionComponent />
+      <RecommendedBusinessComponent />
+    </main>
+  );
 }
