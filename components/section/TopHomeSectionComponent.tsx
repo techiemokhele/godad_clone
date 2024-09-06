@@ -9,11 +9,11 @@ const TopHomeSectionComponent = () => {
       id="banner"
       className="flex md:flex-row flex-col justify-between gap-6 w-full md:px-10 px-6 pt-20"
     >
-      <div className="w-full bg-red-600 rounded-xl">
+      <div className="w-full md:w-2/3 rounded-xl">
         <TopHomeLeftSideComponent />
       </div>
 
-      <div className="w-1/3 bg-red-600">
+      <div className="w-full md:w-1/3 flex items-center justify-center bg-gray-4 rounded-xl">
         <TopHomeRightSideComponent />
       </div>
     </section>
