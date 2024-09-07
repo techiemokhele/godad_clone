@@ -6,7 +6,7 @@ import TopHomeRightSideComponent from "./top/TopHomeRightSideComponent";
 const TopHomeSectionComponent = () => {
   return (
     <section
-      id="home"
+      id="banner"
       className="flex md:flex-row flex-col justify-between gap-6 w-full md:px-10 px-6 pt-20"
     >
       <div className="w-full md:w-2/3 rounded-xl">
