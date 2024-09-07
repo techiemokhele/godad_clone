@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 import { PiMagnifyingGlassLight } from "react-icons/pi";
 import { GrCertificate } from "react-icons/gr";
 import { FaQuoteLeft } from "react-icons/fa";

@@ -7,9 +7,10 @@ import BrandWebsiteInfoClickComponent from "./middle/BrandWebsiteInfoClickCompon
 import BrandWebsiteInfoSwipeComponent from "./middle/BrandWebsiteInfoSwipeComponent";
 
 const BrandWebsiteComponent = () => {
-  const brandingInfo = brandingData;
   const { width } = useWindowSize();
   const isLargeScreen = width >= 1024;
+
+  const brandingInfo = brandingData;
 
   return (
     <section

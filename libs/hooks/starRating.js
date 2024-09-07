@@ -6,12 +6,12 @@ export const renderStars = (rating) => {
     const stars = [];
 
     for (let i = 0; i < fullStars; i++) {
-        stars.push(<FaStar key={i} size={25} className="text-yellow-500" />);
+        stars.push(<FaStar key={i} size={26} className="text-yellow-500" />);
     }
 
     if (hasHalfStar) {
         stars.push(
-            <FaStarHalfAlt key="half" size={25} className="text-yellow-500" />
+            <FaStarHalfAlt key="half" size={26} className="text-yellow-500" />
         );
     }
 

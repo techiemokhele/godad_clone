@@ -1,5 +1,4 @@
 import { FaStarHalfAlt } from "react-icons/fa";
-
 import { testimonialData } from "@/data/testimonialData";
 import { renderStars } from "@/libs/hooks/starRating";
 import TestimonialItemComponent from "./middle/TestimonialItemComponent";

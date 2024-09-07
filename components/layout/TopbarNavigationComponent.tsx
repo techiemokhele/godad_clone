@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+
 import { IoIosArrowRoundForward, IoIosClose } from "react-icons/io";
 import { MdOutlineShoppingCart } from "react-icons/md";
 
