@@ -3,7 +3,7 @@ export const topNavLeftLinks = [
     { label: 'Hosting', href: "#hosting", },
     { label: 'Email', href: "#email", },
     { label: 'Security', href: "#security", },
-    { label: 'Marketing', href: "#marketing", },
+    { label: 'Marketing', href: "#maketing", },
 ]
 
 export const topNavRightLinks = [
