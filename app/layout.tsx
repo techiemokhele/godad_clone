@@ -27,7 +27,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${notoSansNewTaiLue.className}`}>
+      <body
+        suppressHydrationWarning
+        className={`${notoSansNewTaiLue.className}`}
+      >
         <TopbarNavigationComponent />
         {children}
       </body>

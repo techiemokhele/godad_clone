@@ -21,6 +21,14 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "components/common/StarRatingComponent.js",
+    "libs/utils/starRating.js",
+    "libs/hooks/starRating.jsx"
+  ],
   "exclude": ["node_modules"]
 }
