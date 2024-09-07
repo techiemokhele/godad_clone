@@ -11,7 +11,9 @@ export const handleScroll = (
   const targetSection = document.querySelector(id);
 
   if (targetSection) {
-    targetSection.scrollIntoView({ behavior: "smooth" });
+    targetSection.scrollIntoView({
+      behavior: "smooth",
+    });
   }
 
   if (isOpen && toggleMenu) {

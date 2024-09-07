@@ -1,3 +1,4 @@
+
 export const domainSpecialData = [
     {
         id: 1,

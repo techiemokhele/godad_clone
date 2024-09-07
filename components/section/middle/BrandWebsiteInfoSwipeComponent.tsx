@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
+
 import { BrandingDataItemProps } from "@/types";
 
 const BrandWebsiteInfoSwipeComponent = ({

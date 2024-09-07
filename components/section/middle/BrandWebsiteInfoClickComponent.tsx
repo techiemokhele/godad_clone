@@ -32,7 +32,7 @@ const BrandWebsiteInfoClickComponent = ({
   const handleItemLeave = () => {
     setHoveredImage(null);
     // If you don't want to revert to the clicked image when not hovering,
-    // comment the next line:
+    // comment the next line
     setSelectedImage((prevSelectedImage) => prevSelectedImage);
   };
 
