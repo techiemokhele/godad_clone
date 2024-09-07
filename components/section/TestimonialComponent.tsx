@@ -8,7 +8,7 @@ const TestimonialComponent = () => {
 
   return (
     <section
-      id="testimonial"
+      id="testimonial "
       className="flex flex-col gap-6 text-white-1 justify-start items-start"
     >
       <h1 className="text-3xl md:text-4xl font-semibold w-3/5 md:px-10 lg:px-16 px-4">
