@@ -21,7 +21,7 @@ const RecommendedBusinessItemsComponent = ({
   };
 
   return (
-    <div className="flex flex-col-reverse md:flex-row w-full gap-4 text-black-1 lg:px-24 px-8">
+    <div className="flex flex-col md:flex-row w-full gap-4 text-black-1 lg:px-24 px-8">
       {/* Left: Latest item (one item) */}
       <div
         className={`flex flex-col rounded-md md:w-1/2 max-w-full p-4 gap-6`}
@@ -42,7 +42,7 @@ const RecommendedBusinessItemsComponent = ({
             alt={lastItem.name}
             width={1000}
             height={1000}
-            className="lg:h-[240px] h-56 rounded-lg transition-all duration-300 hover:scale-110"
+            className="lg:h-[240px] h-56 rounded-lg shadow-none transition-shadow duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-400 "
           />
         </div>
         <div className="flex flex-col items-start justify-end w-full gap-2">
@@ -84,7 +84,7 @@ const RecommendedBusinessItemsComponent = ({
                 alt={rightItems[0].name}
                 width={1000}
                 height={1000}
-                className="lg:h-[240px] h-56 rounded-lg transition-all duration-300 hover:scale-110"
+                className="lg:h-[240px] h-56 rounded-lg shadow-none transition-shadow duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-400 "
               />
             </div>
             <div
@@ -126,7 +126,7 @@ const RecommendedBusinessItemsComponent = ({
                   alt={item.name}
                   width={1000}
                   height={1000}
-                  className="w-full lg:w-56 lg:h-[152px] h-36  object-cover rounded-lg transition-all duration-300 hover:scale-110"
+                  className="w-full lg:w-56 lg:h-[152px] h-36  object-cover rounded-lg shadow-none transition-shadow duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-400 "
                 />
               </div>
               <div className="flex flex-col items-start justify-center w-full gap-1">

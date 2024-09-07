@@ -25,3 +25,11 @@ export interface BrandingDataItemProps {
   title: string;
   description: string;
 }
+
+export interface TestimonialDataItemProps {
+  id: number;
+  title: string;
+  rating: number;
+  description: string;
+  author: string;
+}
