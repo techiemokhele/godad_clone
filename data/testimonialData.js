@@ -36,7 +36,7 @@ export const testimonialData = [
     },
     {
         id: 6,
-        title: "GoDad's SSL certificates give me peace of mind for security. ",
+        title: "GoDad's SSL certificates give me peace of mind for security.",
         rating: 4.7,
         description: "I purchased an SSL certificate from GoDad for my website, and the installation process was straightforward. It’s comforting to know that my site is secure, and I’ve noticed improved trust from my customers as well. GoDad provides excellent resources and support to ensure that the SSL setup is seamless. I’m very happy with their services.",
         author: "Emily Davis"

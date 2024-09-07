@@ -1,5 +1,4 @@
 "use client";
-
 import TopHomeLeftSideComponent from "./top/TopHomeLeftSideComponent";
 import TopHomeRightSideComponent from "./top/TopHomeRightSideComponent";
 

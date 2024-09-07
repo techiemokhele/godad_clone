@@ -1,5 +1,4 @@
 import { FaStarHalfAlt } from "react-icons/fa";
-
 import { testimonialData } from "@/data/testimonialData";
 import { renderStars } from "@/libs/hooks/starRating";
 import TestimonialItemComponent from "./middle/TestimonialItemComponent";
@@ -29,7 +28,7 @@ const TestimonialComponent = () => {
         <div className="flex flex-row gap-1">{renderStars(4.5)}</div>
 
         <p className="text-xs">
-          4.5 stars out of 5 based on 1,236,943 reviews <br />
+          4.5 stars out of 5 based on 1,236,973 reviews <br />
           Displaying our reviews with ratings of 4 and 5.
         </p>
       </div>

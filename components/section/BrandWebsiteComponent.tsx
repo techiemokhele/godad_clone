@@ -7,9 +7,10 @@ import BrandWebsiteInfoClickComponent from "./middle/BrandWebsiteInfoClickCompon
 import BrandWebsiteInfoSwipeComponent from "./middle/BrandWebsiteInfoSwipeComponent";
 
 const BrandWebsiteComponent = () => {
-  const brandingInfo = brandingData;
   const { width } = useWindowSize();
   const isLargeScreen = width >= 1024;
+
+  const brandingInfo = brandingData;
 
   return (
     <div className="flex flex-col gap-6 justify-center items-center text-white-1">

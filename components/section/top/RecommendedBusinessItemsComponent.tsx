@@ -7,7 +7,7 @@ const RecommendedBusinessItemsComponent = ({
 }: {
   data: ProductDataItemProps[];
 }) => {
-  // Extract the last item for the left side
+  // Extract the last item for the left
   const lastItem = data[data.length - 1];
   const rightItems =
     data.length === 3
