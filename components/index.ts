@@ -4,6 +4,7 @@ import TopbarNavigationComponent from "./layout/TopbarNavigationComponent";
 import BrandWebsiteComponent from "./section/BrandWebsiteComponent";
 import RecommendedBusinessComponent from "./section/RecommendedBusinessComponent";
 import RetainCustomerInfoComponent from "./section/RetainCustomerInfoComponent";
+import TestimonialComponent from "./section/TestimonialComponent";
 import TopHomeSectionComponent from "./section/TopHomeSectionComponent";
 
 export {
@@ -12,5 +13,6 @@ export {
   BrandWebsiteComponent,
   RecommendedBusinessComponent,
   RetainCustomerInfoComponent,
+  TestimonialComponent,
   TopHomeSectionComponent,
 };

@@ -34,9 +34,11 @@ const RecommendedBusinessComponent = () => {
       id="hosting"
       className="flex flex-col items-center justify-center text-white gap-6"
     >
-      <h1 className="text-3xl md:text-4xl px-10 md:px-24 lg:px-96 font-semibold text-center">
-        What is mostly important for your business currently?
-      </h1>
+      <div>
+        <h1 className="text-3xl md:text-4xl px-10 md:px-24 lg:px-72 font-semibold text-center">
+          What is mostly important for your business currently?
+        </h1>
+      </div>
 
       <div className="flex flex-row gap-3 justify-between">
         <ButtonComponent
