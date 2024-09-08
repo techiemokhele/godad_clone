@@ -1,11 +1,11 @@
 "use client";
 
-import { renderStars } from "@/libs/hooks/starRating";
+import { renderStars } from "@/libs/hooks/starRatings";
 import { TestimonialDataItemProps } from "@/types";
 
 import { useState } from "react";
 
-const TestimonialItemComponent = ({
+const TestimonialItemComponents = ({
   data,
 }: {
   data: TestimonialDataItemProps[];
@@ -62,4 +62,4 @@ const TestimonialItemComponent = ({
   );
 };
 
-export default TestimonialItemComponent;
+export default TestimonialItemComponents;

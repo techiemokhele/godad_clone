@@ -1,9 +1,9 @@
 import { FaStarHalfAlt } from "react-icons/fa";
-import { testimonialData } from "@/data/testimonialData";
-import { renderStars } from "@/libs/hooks/starRating";
-import TestimonialItemComponent from "./middle/TestimonialItemComponent";
+import { testimonialData } from "@/data/customerData";
+import { renderStars } from "@/libs/hooks/starRatings";
+import TestimonialItemComponents from "./middle/TestimonialItemComponents";
 
-const TestimonialComponent = () => {
+const TestimonialComponents = () => {
   const currentData = testimonialData;
 
   return (
@@ -16,7 +16,7 @@ const TestimonialComponent = () => {
       </h1>
 
       <div className="max-w-[100vw]">
-        <TestimonialItemComponent data={currentData} />
+        <TestimonialItemComponents data={currentData} />
       </div>
 
       <div className="flex flex-col px-8 gap-3">
@@ -36,4 +36,4 @@ const TestimonialComponent = () => {
   );
 };
 
-export default TestimonialComponent;
+export default TestimonialComponents;

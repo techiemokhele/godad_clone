@@ -8,15 +8,12 @@ export interface ButtonProps {
   hoverShowIcon: boolean;
 }
 
-export interface ProductDataItemProps {
+export interface TestimonialDataItemProps {
   id: number;
-  productImage: string;
-  name: string;
-  price: number;
-  domain: string;
+  title: string;
+  rating: number;
   description: string;
-  buttonText: string;
-  color: string;
+  author: string;
 }
 
 export interface BrandingDataItemProps {
@@ -26,11 +23,13 @@ export interface BrandingDataItemProps {
   description: string;
 }
 
-//
-export interface TestimonialDataItemProps {
+export interface ProductDataItemProps {
   id: number;
-  title: string;
-  rating: number;
+  productImage: string;
+  name: string;
+  price: number;
+  domain: string;
   description: string;
-  author: string;
+  buttonText: string;
+  color: string;
 }

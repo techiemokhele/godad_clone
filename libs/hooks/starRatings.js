@@ -1,3 +1,5 @@
+//show half and full stars
+
 import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 
 export const renderStars = (rating) => {
