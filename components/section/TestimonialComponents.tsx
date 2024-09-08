@@ -11,7 +11,7 @@ const TestimonialComponents = () => {
       id="testimonial"
       className="flex flex-col gap-6 text-white-1 justify-start items-start"
     >
-      <h1 className="text-3xl md:text-4xl font-semibold w-3/5 md:px-10 lg:px-16 px-4">
+      <h1 className="text-2xl md:text-4xl lg:text-4xl px-10 md:px-24 lg:px-72 font-semibold text-center">
         We are trusted by more than 20 million clients globally.
       </h1>
 
@@ -27,7 +27,7 @@ const TestimonialComponents = () => {
 
         <div className="flex flex-row gap-1">{renderStars(4.5)}</div>
 
-        <p className="text-xs">
+        <p className="text-[10px] md:text-xs lg:text-xs">
           4.5 stars out of 5 based on 1,236,973 reviews <br />
           Displaying our reviews with ratings of 4 and 5.
         </p>

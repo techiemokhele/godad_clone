@@ -11,7 +11,7 @@ const TeamGuideComponent = () => {
     >
       {/* tablet & desktop */}
       <div className="flex flex-row px-4 gap-0 w-full bg-gradient-to-l from-purple-200 to-purple-800">
-        <div className="flex flex-col w-1/4 md:lg:w-1/6 lg:w-1/6 gap-1 text-white-1 pt-6">
+        <div className="flex flex-col w-1/3 md:lg:w-1/6 lg:w-1/6 gap-1 text-white-1 pt-6">
           <h1 className="text-[10px] md:text-sm lg:text-sm font-semibold">
             Kimberly Smith
           </h1>

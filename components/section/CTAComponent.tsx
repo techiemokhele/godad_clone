@@ -24,7 +24,7 @@ const CTAComponent = () => {
   return (
     <section
       id="cta"
-      className="relative h-[50vh] w-full flex justify-center items-center"
+      className="relative h-[30vh] md:h-[50vh] lg:h-[50vh] w-full flex justify-center items-center"
     >
       <div
         className="absolute inset-0 bg-cover bg-center"
@@ -35,10 +35,10 @@ const CTAComponent = () => {
       ></div>
 
       <div className="relative z-10 flex flex-col items-center justify-center gap-4">
-        <h1 className="text-3xl font-bold text-center">
+        <h1 className="text-2xl md:text-3xl lg:text-3xl font-bold text-center">
           A domain is where it all begins.
         </h1>
-        <p className="text-sm text-center">
+        <p className="text-xs md:text-sm lg:text-sm text-center">
           Bring your concept to life. Get a domain to mark your online
           territory.
         </p>

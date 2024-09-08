@@ -34,7 +34,7 @@ const RecommendedBusinessComponent = () => {
       className="flex flex-col items-center justify-center text-white gap-6"
     >
       <div>
-        <h1 className="text-3xl md:text-4xl px-10 md:px-24 lg:px-72 font-semibold text-center">
+        <h1 className="text-2xl md:text-4xl lg:text-4xl px-10 md:px-24 lg:px-72 font-semibold text-center">
           What is mostly important for your business currently?
         </h1>
       </div>
@@ -51,7 +51,7 @@ const RecommendedBusinessComponent = () => {
         />
         <ButtonComponent
           type="button"
-          text="Recommended"
+          text="For You"
           onClick={recommendItem}
           decoration="primary"
           rounded={true}
@@ -60,7 +60,7 @@ const RecommendedBusinessComponent = () => {
         />
         <ButtonComponent
           type="button"
-          text="WordPress and Security"
+          text="Get WordPress"
           onClick={wordpressItem}
           decoration="primary"
           rounded={true}
