@@ -45,7 +45,7 @@ const CTAComponent = () => {
 
         <form
           onSubmit={handleSubscribe}
-          className="flex flex-row gap-6 bg-white-1 rounded-lg px-2 py-1 w-[60vw] md:w-[40vw] lg:w-[30vw]"
+          className="flex flex-row gap-6 bg-white-1 rounded-lg px-2 py-1 w-[60vw] md:w-[40vw] lg:w-250vw]"
         >
           <TextInputComponent
             search
