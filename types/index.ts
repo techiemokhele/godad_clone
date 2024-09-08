@@ -1,3 +1,5 @@
+import { ReactElement } from "react";
+
 export interface ButtonProps {
   onClick?: () => void;
   type: "reset" | "button" | "submit";
@@ -6,6 +8,16 @@ export interface ButtonProps {
   rounded: boolean;
   primaryDark: boolean;
   hoverShowIcon: boolean;
+}
+
+export interface TextInputProps {
+  value: string;
+  onChange: (value: string) => void;
+  placeholder: string;
+  type: "tel" | "password" | "text" | "email" | "number";
+  label?: string | ReactElement;
+  search?: boolean;
+  rounded?: boolean;
 }
 
 export interface TestimonialDataItemProps {

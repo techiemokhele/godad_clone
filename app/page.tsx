@@ -4,6 +4,7 @@ import {
   RetainCustomerInfoComponents,
   TestimonialComponents,
   TopHomeSectionComponent,
+  CTAComponent,
 } from "@/components";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <BrandWebsiteComponent />
       <RetainCustomerInfoComponents />
       <TestimonialComponents />
+      <CTAComponent />
     </main>
   );
 }
