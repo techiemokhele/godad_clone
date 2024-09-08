@@ -4,11 +4,11 @@ import { PiMagnifyingGlassLight } from "react-icons/pi";
 import { GrCertificate } from "react-icons/gr";
 import { FaQuoteLeft } from "react-icons/fa";
 
-const RetainCustomerInfoItemComponent = () => {
+const RetainCustomerInfoItemComponents = () => {
   return (
     <div
       className="relative h-[70vh] w-full bg-cover bg-center rounded-lg lg:px-52"
-      style={{ backgroundImage: "url('/images/retainBanner.jpg')" }}
+      style={{ backgroundImage: "url('/images/retainBanners.jpg')" }}
     >
       <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
 
@@ -65,4 +65,4 @@ const RetainCustomerInfoItemComponent = () => {
   );
 };
 
-export default RetainCustomerInfoItemComponent;
+export default RetainCustomerInfoItemComponents;
