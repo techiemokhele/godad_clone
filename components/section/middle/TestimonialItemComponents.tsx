@@ -30,8 +30,8 @@ const TestimonialItemComponents = ({
             </h5>
 
             <div className="flex flex-col gap-1 py-3">
-              <p className="text-yellow-500 font-bold">{item.rating}</p>
-              <span className="text-yellow-500 font-bold flex-row flex">
+              <p className="text-yellow-500 font-bold text-sm">{item.rating}</p>
+              <span className="text-yellow-500 flex-row flex">
                 {renderStars(item.rating)}
               </span>
             </div>

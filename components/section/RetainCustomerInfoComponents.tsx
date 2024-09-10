@@ -3,7 +3,7 @@ import RetainCustomerInfoItemComponents from "./middle/RetainCustomerInfoItemCom
 const RetainCustomerInfoComponents = () => {
   return (
     <section className="flex flex-col gap-6 text-white-1 justify-start items-start lg:px-36 px-4">
-      <h1 className="text-3xl md:text-4xl font-semibold w-3/4 md:w-2/3 md:px-6">
+      <h1 className="text-2xl md:text-4xl lg:text-4xl px-10 md:px-24 lg:px-40 font-semibold text-center">
         Moving forward and up alongside our clients
       </h1>
 

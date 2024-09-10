@@ -35,7 +35,7 @@ const RecommendedBusinessItemsComponent = ({
               : "#111",
         }}
       >
-        <div className="flex items-center justify-center w-full pt-4 px-6">
+        <div className="flex items-center justify-center w-full pt-4">
           <Image
             priority
             src={lastItem.productImage}

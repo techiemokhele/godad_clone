@@ -5,6 +5,7 @@ import {
   TestimonialComponents,
   TopHomeSectionComponent,
   CTAComponent,
+  TeamGuideComponent
 } from "@/components";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <RetainCustomerInfoComponents />
       <TestimonialComponents />
       <CTAComponent />
+      <TeamGuideComponent />
     </main>
   );
 }
