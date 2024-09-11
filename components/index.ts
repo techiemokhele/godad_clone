@@ -1,5 +1,6 @@
 //main components
 import ButtonComponent from "./common/ButtonComponent";
+import ContactUsButtonComponent from "./common/ContactUsButtonComponent";
 import TextInputComponent from "./common/TextInputComponent";
 
 import TopbarNavigationComponent from "./layout/TopbarNavigationComponent";
@@ -14,6 +15,7 @@ import TopHomeSectionComponent from "./section/TopHomeSectionComponent";
 
 export {
   ButtonComponent,
+  ContactUsButtonComponent,
   TextInputComponent,
   TopbarNavigationComponent,
   BrandWebsiteComponent,
