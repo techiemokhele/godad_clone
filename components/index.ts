@@ -3,6 +3,7 @@ import ButtonComponent from "./common/ButtonComponent";
 import ContactUsButtonComponent from "./common/ContactUsButtonComponent";
 import TextInputComponent from "./common/TextInputComponent";
 
+import BottomNavigationComponent from "./layout/BottomNavigationComponent";
 import TopbarNavigationComponent from "./layout/TopbarNavigationComponent";
 
 import BrandWebsiteComponent from "./section/BrandWebsiteComponent";
@@ -18,6 +19,7 @@ export {
   ButtonComponent,
   ContactUsButtonComponent,
   TextInputComponent,
+  BottomNavigationComponent,
   TopbarNavigationComponent,
   BrandWebsiteComponent,
   CTAComponent,

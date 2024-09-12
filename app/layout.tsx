@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 import { Noto_Sans_New_Tai_Lue } from "next/font/google";
-import { ContactUsButtonComponent, TopbarNavigationComponent } from "@/components";
+import {BottomNavigationComponent, ContactUsButtonComponent, TopbarNavigationComponent } from "@/components";
 
 const notoSansNewTaiLue = Noto_Sans_New_Tai_Lue({
   subsets: ["latin"],
@@ -35,7 +35,8 @@ export default function RootLayout({
         <main className="flex-grow">
           {children}
         </main>
-        <ContactUsButtonComponent/>
+        <ContactUsButtonComponent />
+        <BottomNavigationComponent/>
       </body>
     </html>
   );
