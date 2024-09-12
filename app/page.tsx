@@ -5,7 +5,8 @@ import {
   TestimonialComponents,
   TopHomeSectionComponent,
   CTAComponent,
-  TeamGuideComponent
+  TeamGuideComponent,
+  FAQComponent,
 } from "@/components";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <TestimonialComponents />
       <CTAComponent />
       <TeamGuideComponent />
+      <FAQComponent />
     </main>
   );
 }

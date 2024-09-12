@@ -7,6 +7,7 @@ import TopbarNavigationComponent from "./layout/TopbarNavigationComponent";
 
 import BrandWebsiteComponent from "./section/BrandWebsiteComponent";
 import CTAComponent from "./section/CTAComponent";
+import FAQComponent from "./section/FAQComponent";
 import RecommendedBusinessComponent from "./section/RecommendedBusinessComponent";
 import RetainCustomerInfoComponents from "./section/RetainCustomerInfoComponents";
 import TeamGuideComponent from "./section/TeamGuideComponent";
@@ -20,6 +21,7 @@ export {
   TopbarNavigationComponent,
   BrandWebsiteComponent,
   CTAComponent,
+  FAQComponent,
   RecommendedBusinessComponent,
   RetainCustomerInfoComponents,
   TeamGuideComponent,
