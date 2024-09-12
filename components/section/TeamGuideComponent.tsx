@@ -7,7 +7,7 @@ const TeamGuideComponent = () => {
   return (
     <section
       id="contact"
-      className="relative h-[70vh] w-full flex flex-col md:flex-row"
+      className="relative h-[60vh] w-full flex flex-col md:flex-row"
     >
       {/* tablet & desktop */}
       <div className="flex flex-row px-4 gap-0 w-full bg-gradient-to-l from-purple-200 to-purple-800">

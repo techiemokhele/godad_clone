@@ -11,10 +11,7 @@ const FAQComponent = () => {
   };
 
   return (
-    <section
-      id="faq"
-      className="flex flex-col text-white gap-6 pt-36 md:pt-0 lg:pt-0"
-    >
+    <section id="faq" className="flex flex-col text-white gap-6">
       <div className="flex flex-col gap-4 items-center justify-center">
         <h1 className="text-2xl md:text-4xl lg:text-4xl px-10 md:px-24 lg:px-40 font-semibold text-center">
           To bring their ideas online, millions of consumers rely on our web
