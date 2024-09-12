@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 import { Noto_Sans_New_Tai_Lue } from "next/font/google";
-import { TopbarNavigationComponent } from "@/components";
+import { ContactUsButtonComponent, TopbarNavigationComponent } from "@/components";
 
 const notoSansNewTaiLue = Noto_Sans_New_Tai_Lue({
   subsets: ["latin"],
@@ -29,10 +29,13 @@ export default function RootLayout({
     <html lang="en">
       <body
         suppressHydrationWarning
-        className={`${notoSansNewTaiLue.className}`}
+        className={`${notoSansNewTaiLue.className} flex flex-col min-h-screen`}
       >
         <TopbarNavigationComponent />
-        {children}
+        <main className="flex-grow">
+          {children}
+        </main>
+        <ContactUsButtonComponent/>
       </body>
     </html>
   );
